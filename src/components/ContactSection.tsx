@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { MapPin, Phone, Mail, Globe, Clock, Send, CheckCircle2, MessageCircle, ExternalLink } from 'lucide-react';
-import { GYM_PHONE_DISPLAY, GYM_PHONE, GYM_WHATSAPP_LINK, GOOGLE_MAPS_LINK } from '../data/gymData';
+import { MapPin, Phone, Mail, Globe, Clock, Send, CheckCircle2, MessageCircle, ExternalLink, Instagram } from 'lucide-react';
+import { GYM_PHONE_DISPLAY, GYM_PHONE, GYM_WHATSAPP_LINK, GOOGLE_MAPS_LINK, INSTAGRAM_LINK } from '../data/gymData';
 
 export const ContactSection: React.FC = () => {
   const [formSubmitted, setFormSubmitted] = useState(false);
@@ -233,6 +233,23 @@ export const ContactSection: React.FC = () => {
                     className="font-sans text-xs text-[#25D366] hover:underline transition-colors font-semibold"
                   >
                     Chat on WhatsApp ({GYM_PHONE_DISPLAY})
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-4 p-2">
+                <div className="w-10 h-10 rounded-full bg-[#E1306C]/10 border border-[#E1306C]/40 flex items-center justify-center text-[#E1306C] flex-shrink-0">
+                  <Instagram className="w-5 h-5" />
+                </div>
+                <div>
+                  <span className="font-bebas text-base text-white block">INSTAGRAM</span>
+                  <a
+                    href={INSTAGRAM_LINK}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-sans text-xs text-[#E1306C] hover:underline transition-colors font-semibold"
+                  >
+                    @ronnie_fitness_gym ↗
                   </a>
                 </div>
               </div>

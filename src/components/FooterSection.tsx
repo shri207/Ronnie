@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { RonnieLogo } from './RonnieLogo';
 import { Instagram, Facebook, Youtube, Send, MapPin, Phone, Mail, ArrowUp, MessageCircle, ExternalLink } from 'lucide-react';
-import { GYM_PHONE_DISPLAY, GYM_PHONE, GYM_WHATSAPP_LINK, GOOGLE_MAPS_LINK } from '../data/gymData';
+import { GYM_PHONE_DISPLAY, GYM_PHONE, GYM_WHATSAPP_LINK, GOOGLE_MAPS_LINK, INSTAGRAM_LINK } from '../data/gymData';
 
 export const FooterSection: React.FC = () => {
   const [email, setEmail] = useState('');
@@ -154,7 +154,7 @@ export const FooterSection: React.FC = () => {
 
           {/* Social Icons */}
           <div className="flex items-center gap-4">
-            <a href="https://instagram.com" target="_blank" rel="noreferrer" className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gray-300 hover:text-white hover:bg-[#E31E24] hover:border-[#E31E24] transition-all">
+            <a href={INSTAGRAM_LINK} target="_blank" rel="noreferrer" className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gray-300 hover:text-white hover:bg-[#E31E24] hover:border-[#E31E24] transition-all" title="Follow @ronnie_fitness_gym on Instagram">
               <Instagram className="w-4 h-4" />
             </a>
             <a href="https://facebook.com" target="_blank" rel="noreferrer" className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gray-300 hover:text-white hover:bg-[#E31E24] hover:border-[#E31E24] transition-all">

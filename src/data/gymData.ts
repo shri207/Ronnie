@@ -19,6 +19,7 @@ export const GYM_PHONE_DISPLAY = "+91 86810 05321";
 export const GYM_WHATSAPP_NUMBER = "918681005321";
 export const GYM_WHATSAPP_LINK = "https://wa.me/918681005321?text=Hi%20Ronnie%20Fitness%20%26%20Gym%2C%20I%20would%20like%20to%20inquire%20about%20membership%20and%20training!";
 export const GOOGLE_MAPS_LINK = "https://maps.app.goo.gl/PjR7t39Qqo6QeoDs6";
+export const INSTAGRAM_LINK = "https://www.instagram.com/ronnie_fitness_gym/";
 
 export const PRICING_PLANS: MembershipPlan[] = [
   {
@@ -226,7 +227,7 @@ export const TRAINERS: Trainer[] = [
     quote: "I believe strength is built in the mind first. I'm here to push you beyond your limits and unlock your true potential.",
     image: 'https://images.unsplash.com/photo-1567013127542-490d757e51fc?q=80&w=1000&auto=format&fit=crop',
     socials: {
-      instagram: 'https://instagram.com',
+      instagram: INSTAGRAM_LINK,
       facebook: 'https://facebook.com',
       youtube: 'https://youtube.com'
     }
@@ -240,7 +241,7 @@ export const TRAINERS: Trainer[] = [
     quote: "Transformation is not a destination, it's a journey. I'll guide you every step of the way to a stronger you.",
     image: 'https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=1000&auto=format&fit=crop',
     socials: {
-      instagram: 'https://instagram.com',
+      instagram: INSTAGRAM_LINK,
       facebook: 'https://facebook.com',
       youtube: 'https://youtube.com'
     }
@@ -254,7 +255,7 @@ export const TRAINERS: Trainer[] = [
     quote: "Discipline today, strength tomorrow. My goal is to help you become the strongest version of yourself.",
     image: 'https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?q=80&w=1000&auto=format&fit=crop',
     socials: {
-      instagram: 'https://instagram.com',
+      instagram: INSTAGRAM_LINK,
       facebook: 'https://facebook.com',
       youtube: 'https://youtube.com'
     }
