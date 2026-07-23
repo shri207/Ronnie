@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-bebas {
+    font-family: 'Bebas Neue', 'Teko', sans-serif;
+    letter-spacing: 0.04em;
+  }
+  .font-teko {
+    font-family: 'Teko', sans-serif;
+  }
+  .font-rajdhani {
+    font-family: 'Rajdhani', sans-serif;
+  }
+  .font-sans {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  .text-glow-red {
+    text-shadow: 0 0 20px rgba(227, 30, 36, 0.6), 0 0 40px rgba(227, 30, 36, 0.3);
+  }
+
+  .box-glow-red {
+    box-shadow: 0 0 25px rgba(227, 30, 36, 0.35), inset 0 0 15px rgba(227, 30, 36, 0.15);
+  }
+
+  .box-glow-red-lg {
+    box-shadow: 0 0 35px rgba(227, 30, 36, 0.5), inset 0 0 25px rgba(227, 30, 36, 0.2);
+  }
+
+  .border-glow-red {
+    border-color: rgba(227, 30, 36, 0.8);
+    box-shadow: 0 0 20px rgba(227, 30, 36, 0.4);
+  }
+
+  .glass-card {
+    background: rgba(20, 20, 20, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .glass-card-red {
+    background: rgba(22, 18, 20, 0.8);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(227, 30, 36, 0.35);
+  }
+
+  .glass-nav {
+    background: rgba(15, 15, 15, 0.85);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .text-texture-grunge {
+    background-image: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.9), rgba(200,200,200,0.65));
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E31E24;
+}
+
+/* Smoke particle backdrop animation */
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.05); }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 6s ease-in-out infinite;
+}
+

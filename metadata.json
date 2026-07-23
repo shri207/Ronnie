@@ -1,0 +1,6 @@
+{
+  "name": "Ronnie Fitness & Gym",
+  "description": "Premium luxury fitness and gym website with dark aesthetics, red glowing cards, membership plans, trainer profiles, program catalog, transformations, gallery, and mobile app showcase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
