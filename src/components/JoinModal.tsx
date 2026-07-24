@@ -15,7 +15,7 @@ export const JoinModal: React.FC<JoinModalProps> = ({ isOpen, selectedPlanId = '
     phone: '',
     email: '',
     startDate: '',
-    timeSlot: 'Morning (6:00 AM - 9:00 AM)',
+    timeSlot: 'Morning (6:00 AM - 10:00 AM)',
     paymentMethod: 'UPI / GPay'
   });
   const [isSuccess, setIsSuccess] = useState(false);
@@ -152,9 +152,8 @@ export const JoinModal: React.FC<JoinModalProps> = ({ isOpen, selectedPlanId = '
                     onChange={(e) => setFormData({ ...formData, timeSlot: e.target.value })}
                     className="w-full px-4 py-2.5 rounded-xl bg-black/60 border border-white/10 text-white focus:outline-none focus:border-[#E31E24] text-sm"
                   >
-                    <option value="Morning (5:00 AM - 9:00 AM)">Morning (5:00 AM - 9:00 AM)</option>
-                    <option value="Afternoon (11:00 AM - 3:00 PM)">Afternoon (11:00 AM - 3:00 PM)</option>
-                    <option value="Evening (5:00 PM - 10:00 PM)">Evening (5:00 PM - 10:00 PM)</option>
+                    <option value="Morning (6:00 AM - 10:00 AM)">Morning (6:00 AM - 10:00 AM)</option>
+                    <option value="Evening (6:00 PM - 10:00 PM)">Evening (6:00 PM - 10:00 PM)</option>
                   </select>
                 </div>
                 <div>

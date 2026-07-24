@@ -136,12 +136,12 @@ export const FooterSection: React.FC = () => {
             <div className="p-4 rounded-2xl bg-white/5 border border-white/10 font-sans text-xs space-y-2">
               <span className="font-bebas text-sm text-[#E31E24] tracking-wider block uppercase">WORKING HOURS</span>
               <div className="flex justify-between text-gray-300">
-                <span>Mon - Sat:</span>
-                <span className="text-white font-semibold">5:00 AM - 10:00 PM</span>
+                <span>Morning:</span>
+                <span className="text-white font-semibold">6:00 AM - 10:00 AM</span>
               </div>
               <div className="flex justify-between text-gray-300">
-                <span>Sunday:</span>
-                <span className="text-white font-semibold">6:00 AM - 1:00 PM</span>
+                <span>Evening:</span>
+                <span className="text-white font-semibold">6:00 PM - 10:00 PM</span>
               </div>
             </div>
           </div>

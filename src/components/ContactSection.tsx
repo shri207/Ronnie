@@ -276,12 +276,12 @@ export const ContactSection: React.FC = () => {
 
               <div className="space-y-3 font-sans text-xs">
                 <div className="flex justify-between items-center text-gray-300">
-                  <span className="font-bold">Monday - Saturday</span>
-                  <span className="text-[#E31E24] font-semibold">5:00 AM - 10:00 PM</span>
+                  <span className="font-bold">Morning</span>
+                  <span className="text-[#E31E24] font-semibold">6:00 AM - 10:00 AM</span>
                 </div>
                 <div className="border-t border-white/10 pt-2 flex justify-between items-center text-gray-300">
-                  <span className="font-bold">Sunday</span>
-                  <span className="text-[#E31E24] font-semibold">6:00 AM - 1:00 PM</span>
+                  <span className="font-bold">Evening</span>
+                  <span className="text-[#E31E24] font-semibold">6:00 PM - 10:00 PM</span>
                 </div>
               </div>
             </div>

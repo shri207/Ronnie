@@ -151,7 +151,7 @@ export const PROGRAMS: TrainingProgram[] = [
     image: '/images/gallery/leg-press.jpg',
     iconName: 'Flame',
     detailedDescription: 'A high-octane blend of metabolic conditioning, high-intensity interval training (HIIT), and targeted fat burn circuits. Designed to boost your resting metabolic rate and shed body fat while retaining hard-earned muscle.',
-    schedule: 'Mon to Sat (6:00 AM - 10:00 AM & 5:00 PM - 9:00 PM)',
+    schedule: 'Morning (6:00 AM - 10:00 AM) & Evening (6:00 PM - 10:00 PM)',
     leadTrainer: 'PRIYA (Transformation Coach)',
     highlights: [
       'High-calorie burn HIIT & cardio circuits',
@@ -187,7 +187,7 @@ export const PROGRAMS: TrainingProgram[] = [
     image: '/images/gallery/gym-floor.jpg',
     iconName: 'HeartPulse',
     detailedDescription: 'Enhance your cardiovascular health, stamina, and respiratory capacity using Infinity Fitness curved treadmills, motorized treadmills, and upright exercise bikes in our air-conditioned cardio arena.',
-    schedule: 'Daily Open Access (5:30 AM - 10:00 PM)',
+    schedule: 'Morning (6:00 AM - 10:00 AM) & Evening (6:00 PM - 10:00 PM)',
     leadTrainer: 'PRIYA (Fitness & Cardio Coach)',
     highlights: [
       'Curved manual treadmills & S600 motorized treadmills',
@@ -382,7 +382,7 @@ export const FAQS: FaqItem[] = [
   {
     id: 'f3',
     question: 'What are your gym timings?',
-    answer: 'Our gym is open Monday through Saturday from 5:00 AM to 10:00 PM, and on Sundays from 6:00 AM to 1:00 PM to accommodate early morning and late evening workouts.'
+    answer: 'Our gym is open Morning (6:00 AM - 10:00 AM) and Evening (6:00 PM - 10:00 PM).'
   },
   {
     id: 'f4',
